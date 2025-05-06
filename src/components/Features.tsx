@@ -1,12 +1,12 @@
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Chain, Database, Bitcoin, Hexagon } from "lucide-react";
+import { Link, Database, Bitcoin, Hexagon } from "lucide-react";
 
 const features = [
   {
     title: "Decentralized Bidding",
     description: "Secure bidding with crypto wallets. No central authorities, just you and the auction.",
-    icon: <Chain className="h-10 w-10 text-primary" />,
+    icon: <Link className="h-10 w-10 text-primary" />,
     delay: "0s"
   },
   {
