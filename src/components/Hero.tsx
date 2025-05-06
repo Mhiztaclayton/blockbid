@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { Gavel, ChainLink, Database } from "lucide-react";
+import { Gavel, Link, Database } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -44,7 +44,7 @@ const Hero = () => {
               <div className="absolute inset-0 flex items-center justify-center animate-float" style={{ animationDelay: '0.5s' }}>
                 <div className="relative">
                   <Gavel className="h-24 w-24 text-primary animate-pulse-glow absolute left-20 top-0" />
-                  <ChainLink className="h-20 w-20 text-secondary animate-pulse-glow absolute left-0 top-20" style={{ animationDelay: '0.7s' }} />
+                  <Link className="h-20 w-20 text-secondary animate-pulse-glow absolute left-0 top-20" style={{ animationDelay: '0.7s' }} />
                   <Database className="h-20 w-20 text-accent animate-pulse-glow absolute right-0 top-30" style={{ animationDelay: '1.2s' }} />
                   
                   {/* Hexagon shape */}
