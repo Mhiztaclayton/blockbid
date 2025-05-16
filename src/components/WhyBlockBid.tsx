@@ -49,7 +49,13 @@ const WhyBlockBid = () => {
                   <div className="mb-6">
                     <h4 className="text-sm font-medium text-muted-foreground mb-2">Featured Auction</h4>
                     <div className="bg-muted/30 rounded-lg p-4">
-                      <div className="h-40 w-full bg-muted/50 rounded-lg mb-4"></div>
+                      <div className="h-40 w-full bg-muted/50 rounded-lg mb-4 flex items-center justify-center overflow-hidden">
+                        <img 
+                          src="/lovable-uploads/8132539c-880d-43dc-a95f-b4a9e19d1d0a.png" 
+                          alt="Crypto Punk #4269" 
+                          className="h-full object-cover"
+                        />
+                      </div>
                       <h3 className="text-xl font-bold">Crypto Punk #4269</h3>
                       <div className="flex justify-between items-center mt-2">
                         <span className="text-sm">Current bid:</span>
