@@ -57,6 +57,7 @@ const WhyBlockBid = () => {
                         />
                       </div>
                       <h3 className="text-xl font-bold">Crypto Punk #4269</h3>
+                      <p className="text-sm text-muted-foreground mt-1 mb-3">A rare collectible from the iconic CryptoPunks collection. One of 10,000 unique characters on the Ethereum blockchain.</p>
                       <div className="flex justify-between items-center mt-2">
                         <span className="text-sm">Current bid:</span>
                         <span className="text-primary font-bold">3.5 ETH</span>
